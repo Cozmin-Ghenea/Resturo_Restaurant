@@ -217,7 +217,10 @@
                margin:15px 0;
 
             }
-
+            @media(max-width: 500px){
+                margin:5px 0;
+ 
+             }
         }
         .star{
             font-size:12px;
@@ -314,7 +317,7 @@
         color: $color-secondary;
         @include textStyles(capitalize);
         text-align:center;
-
+        margin:0 15px;
         &__name{
             font-size:30px;
             font-family: $font-dancingScript;
